@@ -9,6 +9,7 @@ public class Main {
 
         for (File file : Objects.requireNonNull(folder.listFiles())){
             System.out.println(file.isFile());
+            System.out.println("zahar.smotri");
 
         }
     }
